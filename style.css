@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    margin-left: 260px;
+    border: 25px solid #333;
+    box-shadow: 20px 20px 20px 20px;
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #999;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    }
+.white:hover{
+    background-color: rgb(58, 58, 54);
+}
+.black:hover{
+    background-color: rgb(228, 247, 13);
+}
